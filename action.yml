@@ -22,6 +22,6 @@ runs:
     - run: goodbye.sh
       shell: bash
     - run: |
-        echo "The value of z:"
+        echo "The value of z inside composite action:"
         echo ${{ env.z }}
         echo "-----"
