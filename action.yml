@@ -21,4 +21,7 @@ runs:
       shell: bash
     - run: goodbye.sh
       shell: bash
-
+    - run: |
+        echo "The value of z:"
+        echo ${{ env.z }}
+        echo "-----"
