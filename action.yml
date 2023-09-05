@@ -25,3 +25,4 @@ runs:
         echo "The value of z inside composite action:"
         echo ${{ env.z }}
         echo "-----"
+      shell: bash
